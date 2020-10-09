@@ -49,11 +49,11 @@
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
 //                     |      |      |      |        |  | PLAY  |      |       |       |
 			bindings = <
-&trans    &trans    &trans    &trans    &trans    &trans                    &cp VOLD    &cp VOLU  &trans    &trans    &cp PAUS  &cp SCLK
-&kp GRAV  &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                  &kp CRRT    &kp AMPS  &kp KMLT  &kp LPRN  &kp RPRN  &kp TILD
-&trans    &trans    &trans    &trans    &trans    &trans                    &kp LARW    &kp DARW  &kp UARW  &kp RARW  &trans    &trans
-&trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans      &trans    &trans    &trans    &trans    &trans
-                    &trans    &trans    &trans    &trans                    &cp M_PLAY  &trans    &kp DEL   &trans
+&trans    &trans    &trans    &trans    &trans    &trans                    &cp M_VOLD  &cp M_VOLU  &trans    &trans    &cp PAUS  &cp SCLK
+&kp GRAV  &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                  &kp CRRT    &kp AMPS    &kp KMLT  &kp LPRN  &kp RPRN  &kp TILD
+&trans    &trans    &trans    &trans    &trans    &trans                    &kp LARW    &kp DARW    &kp UARW  &kp RARW  &trans    &trans
+&trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans      &trans      &trans    &trans    &trans    &trans
+                    &trans    &trans    &trans    &trans                    &cp M_PLAY  &trans      &kp DEL   &trans
 			>;
 
 			sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD>;
