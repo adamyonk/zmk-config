@@ -47,9 +47,9 @@
 // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   ~   |
 // |       |     |     |      |      |      |                   | LEFT | DOWN  |  UP   |RIGHT |       |       |
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
-//                     |      |      |      |        |  |       |      |       |       |
+//                     |      |      |      |        |  | PLAY  |      |       |       |
 			bindings = <
-&trans    &trans    &trans    &trans    &trans    &trans                    &kp VOLD    &kp VOLU  &trans    &trans    &kp PAUS  &kp SCLK
+&trans    &trans    &trans    &trans    &trans    &trans                    &cp VOLD    &cp VOLU  &trans    &trans    &cp PAUS  &cp SCLK
 &kp GRAV  &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                  &kp CRRT    &kp AMPS  &kp KMLT  &kp LPRN  &kp RPRN  &kp TILD
 &trans    &trans    &trans    &trans    &trans    &trans                    &kp LARW    &kp DARW  &kp UARW  &kp RARW  &trans    &trans
 &trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans      &trans    &trans    &trans    &trans    &trans
