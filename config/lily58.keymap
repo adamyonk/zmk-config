@@ -6,7 +6,8 @@
 #define F14 0x69
 #define F15 0x6A
 
-// https://github.com/qmk/qmk_firmware/blob/370577e4ed1a714e818bf11cc870e4915f82e93b/tmk_core/common/keycode.h
+// QMK-equivalent codes:
+// https://github.com/qmk/qmk_firmware/blob/master/tmk_core/common/keycode.h
 
 / {
   behaviors {
