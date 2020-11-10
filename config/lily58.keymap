@@ -50,7 +50,7 @@
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
 //                     |      |      |      |        |  | PLAY  |      |       |       |
 			bindings = <
-&trans    &trans    &trans    &trans    &trans    &trans                    &kp M_VOLD  &kp M_VOLU  &trans    &trans    &kp PAUS  &kp SCLK
+&trans    &trans    &trans    &trans    &trans    &trans                    &kp M_VOLD  &kp M_VOLU  &trans    &trans    &kp SCLK  &kp PAUS
 &kp GRAV  &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                  &kp CRRT    &kp AMPS    &kp KMLT  &kp LPRN  &kp RPRN  &kp TILD
 &trans    &trans    &trans    &trans    &trans    &trans                    &kp LARW    &kp DARW    &kp UARW  &kp RARW  &trans    &trans
 &trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans      &trans      &trans    &trans    &trans    &trans
