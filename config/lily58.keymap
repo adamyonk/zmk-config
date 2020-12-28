@@ -48,13 +48,13 @@
 // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   ~   |
 // |       |     |     |      |      |      |                   | LEFT | DOWN  |  UP   |RIGHT |       |       |
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
-//                     |      |      |      |        |  | PLAY  |      |       |       |
+//                     |      |      |      |        |  | PLAY  |      |  DEL  |       |
 			bindings = <
-&trans  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4  &bt BT_SEL 5                    &kp C_VOL_DN  &kp C_VOL_UP  &trans    &trans    &kp C_BRI_DN  &kp C_BRI_UP
-&kp GRAV  &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                  &kp CRRT      &kp AMPS      &kp KMLT  &kp LPRN  &kp RPRN      &kp TILD
-&trans    &trans    &trans    &trans    &trans    &trans                    &kp LARW      &kp DARW      &kp UARW  &kp RARW  &trans        &trans
-&trans    &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans        &trans        &trans    &trans    &trans        &trans
-                    &trans    &trans    &trans    &trans                    &kp C_PP      &trans        &kp DEL   &trans
+&trans    &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5              &kp C_VOL_DN  &kp C_VOL_UP  &trans    &trans    &kp C_BRI_DN  &kp C_BRI_UP
+&kp GRAV  &kp BANG     &kp ATSN      &kp HASH      &kp CURU      &kp PRCT                  &kp CRRT      &kp AMPS      &kp KMLT  &kp LPRN  &kp RPRN      &kp TILD
+&trans    &trans       &trans        &trans        &trans        &trans                    &kp LARW      &kp DARW      &kp UARW  &kp RARW  &trans        &trans
+&trans    &trans       &trans        &trans        &trans        &trans    &trans  &trans  &trans        &trans        &trans    &trans    &trans        &trans
+                       &trans        &trans        &trans        &trans                    &kp C_PP      &trans        &kp DEL   &trans
 			>;
 
 			sensor-bindings = <&inc_dec_cp C_VOL_UP C_VOL_DN>;
@@ -66,7 +66,7 @@
 // |      |  F1  |  F2  |  F3   |  F4  |  F5  |                    |       |   1   |   2   |   3   |   -   |       |
 // |      |  F6  |  F7  |  F8   |  F9  |  F10 |                    |       |   4   |   5   |   6   |       |       |
 // |      |  F11 |  F12 |  F13  |  F14 |  F15 | BT_PRV |  | BT_NXT |       |   7   |   8   |   9   |       |       |
-//                      |       |      |      |        |  | BT_CLR |       |       |   0   |
+//                      |       |      |      | OUT_TOG|  | BT_CLR |       |       |   0   |
 			bindings = <
 &trans  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4  &bt BT_SEL 5                          &trans      &trans     &kp FSLH   &kp KMLT   &kp KPLS   &trans
 &trans  &kp F1       &kp F2        &kp F3       &kp F4        &kp F5                                &trans      &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp MINUS  &trans
