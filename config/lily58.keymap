@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&kscan0 {
+    debounce-period = <20>;
+};
+
 // ZMK codes:
 // https://zmkfirmware.dev/docs/codes
 // https://github.com/zmkfirmware/zmk/blob/main/app/include/dt-bindings/zmk/keys.h
